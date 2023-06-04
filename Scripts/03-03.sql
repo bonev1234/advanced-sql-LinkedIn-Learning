@@ -12,7 +12,7 @@ from model
 limit 10;
 
 -- 3. lookup the modelId for the electric models
-SELECT modelId
+SELECT model
 FROM model
 WHERE EngineType = 'Electric';
 
